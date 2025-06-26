@@ -1,0 +1,74 @@
+.left>div, .right{
+    width: 50vw;
+    background-color: red;
+}
+
+.left>div{
+    height: 10vh;
+}
+
+.right{
+    height: 21vh;
+}
+.parent {
+    display: flex;
+    column-gap: 5px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    
+}
+
+.left>div, .right, .right2, .thirdRight>div, .thirdLeft>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.secondChild{
+    display: flex;
+    column-gap: 5px;
+    width: 50vw;
+}
+.right2{
+    width: 50%;
+    background-color: red;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+}
+
+.thirdLeft{
+    display: flex;
+    column-gap: 2px;
+    width: 50vw;
+    
+}
+
+.thirdLeft>div{
+    background-color: red;
+    width: calc(100%/5);
+    height: 20vh;
+}
+
+.thirdRight{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 50vw;
+}
+
+.thirdRight>div{
+    background-color: red;
+    width: 100%;
+    height: 10vh;
+}
+
